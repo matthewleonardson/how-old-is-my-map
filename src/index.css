@@ -1,3 +1,16 @@
+button {
+    background-color: #8742d6; 
+    border: none;
+    color: white;
+    width: 400px;
+    padding: 15px 32px;
+    margin: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
 body {
     font-family: monospace;
     background: linear-gradient(0deg, rgb(34, 196, 19) 0.03%, rgb(13, 10, 207));
@@ -9,3 +22,4 @@ body {
     height: 100vh; 
 
 }
+

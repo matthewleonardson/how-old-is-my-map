@@ -2,7 +2,7 @@ const ResultBlock = ({dateRange}) => {
 
     return( 
         <div className = "resultBlock">
-            {dateRange}
+            <h1>{dateRange}</h1>
         </div>
     )
 
