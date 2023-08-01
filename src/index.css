@@ -1,0 +1,11 @@
+body {
+    font-family: monospace;
+    background: linear-gradient(0deg, rgb(34, 196, 19) 0.03%, rgb(13, 10, 207));
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 30 px;
+    height: 100vh; 
+
+}

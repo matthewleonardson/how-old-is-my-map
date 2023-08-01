@@ -1,0 +1,796 @@
+[
+        {
+            "id": 1,
+            "question": "Istanbul or Constantinople?",
+            "daterange": "Who knows?",
+            "options": {
+                "Istanbul": 51,
+                "Constantinople": -2,
+                "Neither": 19
+            }
+        },
+
+        {
+            "id": -2,
+            "daterange": "330 - 1928",
+            "question": "Does Independent Canada, US Territory of Alaska or Tokyo exist?",
+            "options": {
+                
+                    "No": 3
+                ,
+                
+                    "Yes": 11
+                
+            }
+        },
+
+        {
+            "id": 2,
+            "daterange": "1299 - 1922",
+            "question": "Does Independent Canada, US Territory of Alaska or Tokyo exist?",
+            "options": {
+                
+                    "No": 3
+                ,
+                
+                    "Yes": 11
+                
+            }
+        },
+
+        {
+            "id": 3,
+            "daterange": "330 - 1867",
+            "question": "Is the Holy Roman Empire there?",
+            "options": {
+                
+                    "No": 4
+                ,
+                
+                    "Yes": "1805 or earlier"
+                
+            }
+        },
+
+        {
+            "id": 4,
+            "daterange": "330 - 899 or 1806 - 1867",
+            "question": "Is the United States there?",
+            "options": {
+                
+                    "No": "330 - 889"
+                ,
+                
+                    "Yes": 5
+                
+            }
+        }, 
+
+        {
+            "id": 5,
+            "daterange": "1806 - 1867",
+            "question": "Texas is...",
+            "options": {
+                
+                    "Part of Mexico": 6
+                ,
+            
+                    "Independent": "1836 - 1846"
+                ,
+                
+                    "Part of the US": 9 
+                
+            }
+        },
+
+        {
+            "id": 6,
+            "daterange": "1806 - 1836",
+            "question": "Florida is part of...",
+            "options": {
+                
+                    "Spain": 7
+                ,
+                
+                    "The US": 8
+                
+        }
+        },
+
+        {
+            "id": 7,
+            "daterange": "1806 - 1821",
+            "question": "Is Paraguay there?",
+            "options": {
+                
+                    "No": "1806 - 1811"
+                ,
+                
+                    "Yes": "1811 - 1821"
+                
+            }
+        }, 
+        
+        {
+            "id": 8,
+            "daterange": "1821 - 1836",
+            "question": "Are Venezuela and/or Ecuador there?",
+            "options": {
+                
+                    "No": "1821 - 1830"
+                ,
+                
+                    "Yes": "1830 - 1836"
+                
+            }
+        },
+
+        {
+            "id": 9,
+            "daterange": "1841 - 1867",
+            "question": "Does Russia border the Sea of Japan?",
+            "options": {
+                
+                    "No": 10
+                ,
+                
+                    "Yes": "1858 - 1867"
+                
+        }
+        },
+
+        {
+            "id": 10,
+            "daterange": "1846 - 1858",
+            "question": "The US's southern border looks...",
+            "options": {
+                
+                    "Weird": "1846 - 1854"
+                ,
+                
+                    "Normal": "1854 - 1858"
+                
+            }
+        }, 
+
+        {
+            "id": 11,
+            "daterange": "1868 - 1928",
+            "question": "Is South Africa there?",
+            "options": {
+                
+                    "No": 12
+                ,
+                
+                    "Yes": 16
+                
+            }
+        }, 
+
+        {
+            "id": 12,
+            "daterange": "1868 - 1910",
+            "question": "Is Rhodesia there?",
+            "options": {
+                
+                    "No": 13
+                ,
+                
+                    "Yes": 15
+                
+            }
+        }, 
+
+        {
+            "id": 13,
+            "daterange": "1868 - 1895",
+            "question": "Is Bolivia landlocked?",
+            "options": {
+                
+                    "No": 14
+                ,
+                
+                    "Yes": "1884 - 1895"
+                
+            }
+        }, 
+
+        {
+            "id": 14,
+            "daterange": "1868 - 1884",
+            "question": "Are Buda and Pest two seperate cities or is Budapest there?",
+            "options": {
+                
+                   "Buda and Pest": "1868 - 1873"
+                ,
+                
+                    "Budapest": "1873 - 1884"
+                
+            }
+        }, 
+
+        {
+            "id": 15,
+            "daterange": "1895 - 1910",
+            "question": "Is Norway part of Sweden?",
+            "options": {
+                
+                    "No": "1905 - 1910"
+                ,
+                
+                    "Yes": "1895 - 1905"
+                
+            }
+        }, 
+        
+        {
+            "id": 16,
+            "daterange": "1910 - 1928",
+            "question": "Is Austria-Hungary there?",
+            "options": {
+                
+                    "No": 18
+                ,
+                
+                    "Yes": 17
+                
+            }
+        }, 
+
+        {
+            "id": 17,
+            "daterange": "1910 - 1918",
+            "question": "Is Albania there?",
+            "options": {
+                
+                    "No": "1910 - 1912"
+                ,
+                
+                    "Yes": "1912 - 1918"
+                
+            }
+        },
+
+        {
+            "id": 18,
+            "daterange": "1918 - 1928",
+            "question": "Is Leningrad there?",
+            "options": {
+                
+                    "No": "1918 - 1924"
+                ,
+                
+                    "Yes": "1924 - 1928"
+                
+            }
+        },
+
+        {
+            "id": 19,
+            "daterange": "Give us one more question, then we'll tell you.",
+            "question": "Does the Ottoman Empire exist?",
+            "options": {
+                
+                   "No": 20
+                ,
+                
+                    "Yes": 2
+                
+            }
+        }, 
+
+        {
+            "id": 20,
+            "daterange": "Before 1299 or after 1922",
+            "question": "Is the Soviet Union there?",
+            "options": {
+                
+                    "No": 22
+                ,
+                
+                    "Yes": 21
+    
+                
+            }
+        }, 
+
+        {
+            "id": 21,
+            "daterange": "1922 - 1991",
+            "question": "Is Saudi Arabia there?",
+            "options": {
+                
+                    "No": "1922 - 1932"
+                ,
+                
+                    "Yes": 52
+                
+            }
+        }, 
+
+        {
+            "id": 22,
+            "daterange": "Before 1299 or about 2 months in 1922 or after 1991",
+            "question": "Is North Korea there?",
+            "options": {
+                
+                    "No": 24
+                ,
+                
+                    "Yes": 69
+                
+            }
+        }, 
+
+        {
+            "id": 24,
+            "daterange": "Before 1299 or from November 1, 1922 to December 28, 1922",
+            "question": "Is Jan Mayen part of the kingdom of Norway?",
+            "options": {
+                
+                    "Not yet": 2
+                ,
+                
+                    "Yes": 53
+                ,
+                
+                    "What???": 26
+                
+            }
+        }, 
+
+        {
+            "id": 26,
+            "daterange": "[RECALIBRATING]",
+            "question": "This must be a physical map or satellite photo, right?",
+            "options": {
+                
+                    "No": "what???"
+                ,
+                
+                    "Yes": 27
+                
+            }
+        }, 
+
+        {
+            "id": 27,
+            "daterange": "[GETTING BACK ON TRACK]",
+            "question": "Is Lake Chad missing?",
+            "options": {
+                
+                    "No": 29
+                ,
+                
+                    "Yes": 31
+                
+            }
+        }, 
+
+        {
+            "id": 28,
+            "daterange": "During or before the 1970s",
+            "question": "How far east do the American prairies reach?",
+            "options": {
+                
+                    "Indiana": "Before 1830"
+                ,
+                
+                    "The Mississippi": "1830s to 1880s"
+                ,
+                
+                    "Nebraska": 29
+                ,
+                
+                    "What prairies?": 30
+                
+            }
+        }, 
+
+        {
+            "id": 29,
+            "daterange": "1860s to 1910s",
+            "question": "Is there a big lake in the middle of Southern California?",
+            "options": {
+                
+                    "No": "1860s to 1900s"
+                ,
+                
+                    "Yes": "1910s"
+                
+            }
+        }, 
+
+        {
+            "id": 30,
+            "daterange": "1920s to 1970s",
+            "question": "Is there a big lake in the middle of Ghana?",
+            "options": {
+                
+                    "No": "1920s to 1950s"
+                ,
+                
+                    "Yes": "1960s to 1970s"
+                
+            }
+        }, 
+
+        {
+            "id": 31,
+            "daterange": "During or after the 1970s",
+            "question": "Is the Aral Sea missing?",
+            "options": {
+                
+                    "No": "1970s to 1990s"
+                ,
+                
+                    "Yes": "2000s or onward"
+                
+            }
+        }, 
+
+        {
+            "id": 51,
+            "daterange": "After 1928",
+            "question": "Does the Soviet Union exist?",
+            "options": {
+                
+                    "No": 69
+                ,
+                
+                    "Yes": 52
+                
+            }
+        }, 
+
+        {
+            "id": 52,
+            "daterange": "1928 - 1991",
+            "question": "Is most of West Africa a giant French blob?",
+            "options": {
+                
+                    "No": 60
+                ,
+                
+                    "Yes": 53
+                
+            }
+        }, 
+
+        {
+            "id": 53,
+            "daterange": "1928 - 1960",
+            "question": "Is Pakistan there?",
+            "options": {
+                
+                    "No": 54
+                ,
+                
+                    "Yes": 56
+                
+            }
+        }, 
+
+        {
+            "id": 54,
+            "daterange": "1928 - 1947",
+            "question": "How many Germanys are there?",
+            "options": {
+                
+                    "One": 55
+                ,
+                
+                    "One but it's HUGE": "1941 - 1945"
+                ,
+                
+                    "Two": "1946 - 1947"
+                
+            }
+        }, 
+
+        {
+            "id": 55,
+            "daterange": "1928 - 1940",
+            "question": "Is it called Persia or Iran?",
+            "options": {
+                
+                    "Persia": "1930 - 1934"
+                ,
+                
+                    "Iran": "1935 - 1940"
+                
+            }
+        }, 
+
+        {
+            "id": 56,
+            "daterange": "1948 - 1960",
+            "question": "Is Cambodia there?",
+            "options": {
+                
+                    "No": 57
+                ,
+                
+                    "Yes": 59
+                
+            }
+        }, 
+
+        {
+            "id": 57,
+            "daterange": "1947 - 1953",
+            "question": "Eritrea is part of...",
+            "options": {
+                
+                    "Italy": 58
+                ,
+                
+                    "Ethiopia": "1952 - 1953"
+                
+            }
+        }, 
+
+        {
+            "id": 58,
+            "daterange": "1947 - 1952",
+            "question": "Canada is...",
+            "options": {
+                
+                    "Missing a piece": "1948"
+                ,
+                
+                    "Not missing a piece": 63
+                
+            }
+        }, 
+
+        {
+            "id": 59,
+            "daterange": "1953 - 1960",
+            "question": "Is the United Arab Republic there?",
+            "options": {
+                
+                    "No": "1953 - 1958"
+                ,
+                
+                    "Yes": "1958 - 1960"
+                
+            }
+        }, 
+
+        {
+            "id": 60,
+            "daterange": "1960 - 1991",
+            "question": "How many Vietnams are there?",
+            "options": {
+                
+                    "One": 65
+                ,
+                
+                    "Two": 61
+                
+            }
+        }, 
+
+        {
+            "id": 61,
+            "daterange": "1960 - 1975",
+            "question": "Is Bangladesh there?",
+            "options": {
+                
+                   "No": 62
+                ,
+                
+                    "Yes": "1972 - 1975"
+                
+            }
+        }, 
+
+        {
+            "id": 62,
+            "daterange": "1960 - 1972",
+            "question": "The area south of Lake Victoria is...",
+            "options": {
+                
+                    "British": "1960"
+                ,
+                
+                    "Tanganyika": "1961 - 1964"
+                ,
+                
+                    "Tanzania": "1965 - 1972"
+                
+            }
+        }, 
+
+        {
+            "id": 63,
+            "daterange": "1949 - 1952",
+            "question": "The town on I-25 between Albuquerque and El Paso is...",
+            "options": {
+                
+                    "Hot Springs": "1948 - 1949"
+                ,
+                
+                    "Truth or Consequences ": "1950 - 1952"
+                
+            }
+        }, 
+
+        {
+            "id": 65,
+            "daterange": "1975 - 1991",
+            "question": "The Sinai is part of which country?",
+            "options": {
+                
+                    "Israel": "1976 - 1979"
+                ,
+                
+                    "Mostly Israel": "1980"
+                ,
+                
+                    "Mostly Egypt": "1981"
+                ,
+                
+                    "Egypt": 66
+                
+            }
+        }, 
+
+        {
+            "id": 66,
+            "daterange": "1982 - 1991",
+            "question": "What is the capital of Micronesia?",
+            "options": {
+                
+                    "Kolonia": 67
+                ,
+                
+                    "Palikir": 68
+                
+            }
+        }, 
+
+        {
+            "id": 67,
+            "daterange": "1982 - 1988",
+            "question": "Is it called Republic of Upper Volta or Burkina Faso?",
+            "options": {
+                
+                    "Republic of Upper Volta": "1982 - 1984"
+                ,
+                
+                    "Burkina Faso": "1985 - 1988"
+                
+            }
+        }, 
+
+        {
+            "id": 68,
+            "daterange": "1989 - 1991",
+            "question": "(Number of Yemens) + (Number of Germanys) = ...",
+            "options": {
+                
+                    "Four": "1989 to early 1990"
+                ,
+                
+                    "Three": "mid-1990"
+                ,
+                
+                    "Two": "late 1990 to 1991"
+                
+            }
+        }, 
+
+        {
+            "id": 69,
+            "daterange": "After 1991",
+            "question": "Is Zaire or Hong Kong (UK) there?",
+            "options": {
+                
+                    "No": 70
+                ,
+                
+                    "Yes": "1992 - 1996"
+                
+            }
+        }, 
+
+        {
+            "id": 70,
+            "daterange": "After 1996",
+            "question": "Serbia and Montenegro are...",
+            "options": {
+                
+                    "One country (Yugoslavia on some maps) ": 71
+                ,
+                
+                    "Two countries": 72
+                
+            }
+        }, 
+
+        {
+            "id": 71,
+            "daterange": "1996 - 2006",
+            "question": "Is East Timor (or Timor-Leste) there?",
+            "options": {
+                
+                    "No": "1997 - 2001"
+                ,
+                
+                    "Yes": "2002 - 2006"
+                
+            }
+        }, 
+
+        {
+            "id": 72,
+            "daterange": "After 2006",
+            "question": "How many Sudans are there?",
+            "options": {
+                
+                    "One": "2007 - 2011"
+                ,
+                
+                    "Two": 73
+                
+        }
+        }, 
+
+        {
+            "id": 73,
+            "daterange": "After 2011",
+            "question": "Does Qatar have full control of Khawr al Udayd?",
+            "options": {
+                
+                    "No": -74
+                ,
+                
+                    "Yes": 74
+                
+            }
+        },
+
+        {
+            "id": -74,
+            "daterange": "2011 - 2021",
+            "question": "What is the capital of Kazakhstan?",
+            "options": {
+                
+                    "Nur-Sultan": "March 23, 2019 to 2021"
+                ,
+                
+                    "Astana": 75
+                
+            }
+        },
+
+        {
+            "id": 74,
+            "daterange": "After 2021",
+            "question": "What is the capital of Kazakhstan?",
+            "options": {
+                
+                    "Nur-Sultan": "2021 to September 17, 2022"
+                ,
+                
+                    "Astana": "After September 17, 2022"
+                
+            }
+        },
+
+        {
+            "id": 75,
+            "daterange": "2011 - 2019",
+            "question": "Is it called Czechia or Czech Republic?",
+            "options": {
+                
+                    "Czechia": "2016 - 2019"
+                ,
+                
+                    "Czech Republic": "2011 - 2016"
+                
+            }
+        }
+    ]
