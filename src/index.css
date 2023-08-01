@@ -1,19 +1,27 @@
+:root {
+  --celadon: #a6ebc9ff;
+  --screamin-green: #61ff7eff;
+  --sgbus-green: #5eeb5bff;
+  --kelly-green: #62ab37ff;
+}
+
 button {
-    background-color: #8742d6; 
+    background-color: var(--kelly-green); 
     border: none;
-    color: white;
-    width: 400px;
+    color:  black;
+    width: 200px;
     padding: 15px 32px;
     margin: 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
+    border-radius: 25px;
   }
 
 body {
     font-family: monospace;
-    background: linear-gradient(0deg, rgb(34, 196, 19) 0.03%, rgb(13, 10, 207));
+    background: var(--celadon);
     display: flex;
     justify-content: center;
     text-align: center;

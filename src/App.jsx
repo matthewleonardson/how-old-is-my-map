@@ -2,6 +2,7 @@ import { useState } from 'react'
 import QuestionBlock from './components/QuestionBlock'
 import Questions from './choices.json';
 import ResultBlock from './components/ResultBlock';
+import RestartPrompt from './components/RestartPrompt';
 
 function App() {
 
@@ -23,6 +24,8 @@ function App() {
         />}
 
         {quizIsFinished && <ResultBlock dateRange={dateRange}/>}
+
+        {quizIsFinished && <RestartPrompt setCurrentQuestionId={setCurrentQuestionId} setQuizIsFinished={setQuizIsFinished}/>}
     </div>
   )
 }

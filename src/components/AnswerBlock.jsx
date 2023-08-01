@@ -1,4 +1,4 @@
-const AnswerBlock = ({answerChoice, newId, setCurrentQuestionId, setQuizIsFinished}) => {
+const AnswerBlock = ({answerChoice, newId, setCurrentQuestionId, setDateRange, setQuizIsFinished}) => {
 
     //
     const handleClick = () => {
@@ -7,6 +7,7 @@ const AnswerBlock = ({answerChoice, newId, setCurrentQuestionId, setQuizIsFinish
             setCurrentQuestionId(newId)
         } else {
             setQuizIsFinished(true)
+            setDateRange(newId)
         }
     
     }
