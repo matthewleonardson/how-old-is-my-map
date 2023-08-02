@@ -9,13 +9,14 @@ button {
     background-color: var(--kelly-green); 
     border: none;
     color:  black;
-    width: 200px;
+    width: 50vh;
     padding: 15px 32px;
     margin: 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
+    font-family: monospace;
     border-radius: 25px;
   }
 
@@ -24,10 +25,12 @@ body {
     background: var(--celadon);
     display: flex;
     justify-content: center;
+    zoom: 150%;
     text-align: center;
     margin: 0 auto;
     padding: 0 30 px;
-    height: 100vh; 
+    height: 100vh;
+    width: 100vh; 
 
 }
 

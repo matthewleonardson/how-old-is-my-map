@@ -10,24 +10,28 @@ function App() {
   const [quizIsFinished, setQuizIsFinished] = useState(false)
   const [dateRange, setDateRange] = useState(null)
 
-
   return (
     <div>
       {!quizIsFinished && <QuestionBlock 
-        quizIsFinished = {quizIsFinished}
         questions = {Questions}
         currentQuestionId = {currentQuestionId}
         setCurrentQuestionId = {setCurrentQuestionId}
         dateRange = {dateRange}
         setDateRange = {setDateRange}
         setQuizIsFinished = {setQuizIsFinished}
-        />}
+      />}
 
-        {quizIsFinished && <ResultBlock dateRange={dateRange}/>}
+      {quizIsFinished && <ResultBlock 
+        dateRange = {dateRange}
+      />}
 
-        {quizIsFinished && <RestartPrompt setCurrentQuestionId={setCurrentQuestionId} setQuizIsFinished={setQuizIsFinished}/>}
+      {quizIsFinished && <RestartPrompt 
+        setCurrentQuestionId = {setCurrentQuestionId} 
+        setQuizIsFinished = {setQuizIsFinished}
+      />}
     </div>
   )
+
 }
 
 export default App

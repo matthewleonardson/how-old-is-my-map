@@ -1,6 +1,5 @@
 const AnswerBlock = ({answerChoice, newId, setCurrentQuestionId, setDateRange, setQuizIsFinished}) => {
 
-    //
     const handleClick = () => {
         
         if(typeof newId == 'number') {
@@ -22,7 +21,6 @@ const AnswerBlock = ({answerChoice, newId, setCurrentQuestionId, setDateRange, s
         </div>
 
     )
-
 
 }
 

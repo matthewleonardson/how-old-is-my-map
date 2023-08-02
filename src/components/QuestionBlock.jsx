@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import AnswerBlock from "./AnswerBlock";
 
-const QuestionBlock = ({quizIsFinished, questions, currentQuestionId, setCurrentQuestionId, dateRange, setDateRange, setQuizIsFinished}) => {
+const QuestionBlock = ({questions, currentQuestionId, setCurrentQuestionId, dateRange, setDateRange, setQuizIsFinished}) => {
 
    useEffect(() => {
     setDateRange((questions.find(x => x.id == currentQuestionId)).daterange)
@@ -17,12 +17,11 @@ const QuestionBlock = ({quizIsFinished, questions, currentQuestionId, setCurrent
         </div>
 
         <div className = "questionBlock">
-            {/* display question*/}
             <h1>{ (questions.find(x => x.id == currentQuestionId)).question }</h1>
 
 
             {Object.entries((questions.find(x => x.id == currentQuestionId)).options).map(([key, value]) => (
-                    <div>
+                    <div key = {key}>
                     <AnswerBlock 
                         answerChoice = {key}
                         newId = {value}
