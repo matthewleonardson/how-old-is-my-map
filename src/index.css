@@ -9,7 +9,7 @@ button {
     background-color: var(--kelly-green); 
     border: none;
     color:  black;
-    width: 50vh;
+    width: 300px;
     padding: 15px 32px;
     margin: 25px;
     text-align: center;
@@ -20,17 +20,51 @@ button {
     border-radius: 25px;
   }
 
-body {
+  body {
     font-family: monospace;
     background: var(--celadon);
     display: flex;
     justify-content: center;
-    zoom: 150%;
     text-align: center;
     margin: 0 auto;
     padding: 0 30 px;
-    height: 100vh;
-    width: 100vh; 
-
+    width: 100vh;
+    font-size: 20px; 
 }
+
+.aboutPopup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutPopupInner {
+  position: relative;
+  padding: 32px;
+  width: 100%;
+  max-width: 640px;
+  background-color: white;
+}
+
+.aboutPopupInner .aboutPopupCloseButton {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  zoom: 50%
+}
+
+.infoButton {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  zoom: 75%
+}
+
 
